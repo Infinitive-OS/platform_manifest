@@ -23,7 +23,7 @@
 
 <!-- BEGIN Infinitive-OS -->
   <project name="platform_manifest" path="manifest" remote="io" />
-  <project name="platform_build" path="build" remote="io" >
+  <project name="platform_build-old" path="build" remote="io" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project name="device_qcom_common" path="device/qcom/common" remote="io" />
@@ -78,7 +78,7 @@
   <project name="platform_packages_apps_InCallUI" path="packages/apps/InCallUI" remote="io" />
   <project name="platform_packages_apps_Music" path="packages/apps/Music" remote="io" />
   <project name="platform_packages_apps_MusicFX" path="packages/apps/MusicFX" remote="io" />
-  <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="io" />
+  <project name="platform_packages_apps_Settings-old" path="packages/apps/Settings" remote="io" />
   <project name="platform_packages_apps_SlimLauncher" path="packages/apps/SlimLauncher" remote="io" />
   <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="io" />
   <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="io" />
